@@ -1,0 +1,41 @@
+# Project information
+site_name: 'Knowledge Project Guidelines'
+site_description: 'Knowledge Project Guidelines and Best Practices'
+site_author: 'knowledge.io'
+site_url: 'http://knowledge-internal-documentation-site.s3-website-us-east-1.amazonaws.com/'
+
+# Repository
+repo_name: 'knowledge/knowledge-project-guidelines'
+repo_url: 'https://github.com/knowledge/knowledge-project-guidelines'
+
+# Copyright
+copyright: 'Copyright &copy; Knowledge.io'
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  palette:
+    primary: 'Blue'
+    accent: 'Blue'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+
+# Customization
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/knowledge'
+    - type: 'twitter'
+      link: 'https://twitter.com/knowledgetoken'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/company/11338144'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
