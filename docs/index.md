@@ -1,5 +1,5 @@
-# Project Guidelines and Best Practices
+# Knowledge Project Guidelines
 
-This is a set guidelines used at Knowledge projects such as [knowledgewallet.com](knowledgewallet.com) and [knowledgeapi.com](knowledgeapi.com)
+Knowledge Project Guidelines is collection of standards, conventions and best practices to follow when developing software at knowledge.io. This is used at Knowledge projects such as [knowledgewallet.com](knowledgewallet.com).
 
 *THIS IS A WORK IN PROGRESS!*
