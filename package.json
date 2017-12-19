@@ -1,7 +1,7 @@
 {
   "name": "knowledge-project-guidelines",
   "version": "0.0.1",
-  "description": "Knowledge Project Guidelines and Best Practices",
+  "description": "Knowledge Project Guidelines is collection of standards, conventions and best practices to follow when developing software at knowledge.io",
   "main": "",
   "directories": {
     "doc": "docs"
@@ -9,9 +9,16 @@
   "scripts": {
     "start": "docker run --rm -it -p 8000:8000 -v `pwd`:/docs squidfunk/mkdocs-material",
     "build": "docker run --rm -it -p 8000:8000 -v `pwd`:/docs squidfunk/mkdocs-material build",
-    "upload": "aws s3 cp ./site/ s3://knowledge-project-guidelines/ --recursive",
-    "deploy": "npm run build && npm run upload",
+    "deploy": "gh-pages-deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "gh-pages-deploy": {
+    "staticpath": "site",
+    "cname": "guidelines.knowledge.io",
+    "prep": [
+      "build"
+    ],
+    "noprompt": false
   },
   "repository": {
     "type": "git",
