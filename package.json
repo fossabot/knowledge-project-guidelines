@@ -11,7 +11,7 @@
     "build": "docker run --rm -it -p 8000:8000 -v `pwd`:/docs squidfunk/mkdocs-material build",
     "predeploy": "npm run build",
     "deploy": "git-directory-deploy --directory site --branch gh-pages",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "standard"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   },
   "homepage": "https://guidelines.knowledge.io",
   "devDependencies": {
-    "git-directory-deploy": "^1.5.1"
+    "git-directory-deploy": "^1.5.1",
+    "standard": "^10.0.3"
   }
 }
