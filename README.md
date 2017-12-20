@@ -3,7 +3,7 @@
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 [![](https://img.shields.io/badge/%E2%9C%93-collaborative_etiquette-brightgreen.svg)](https://git.io/col)
 
-This is the source code of the site [guidelines.knowledge.io](https://guidelines.knowledge.io).
+This is the source code of the site [knowledge.github.io/knowledge-project-guidelines](https://knowledge.github.io/knowledge-project-guidelines).
 
 It's a set guidelines used at Knowledge projects such as [knowledgewallet.com](knowledgewallet.com).
 
