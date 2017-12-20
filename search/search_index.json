@@ -2,22 +2,27 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Knowledge Project Guidelines\n\n\nKnowledge Project Guidelines is collection of standards, conventions and best practices to follow when developing software at knowledge.io. This is used at Knowledge projects such as \nknowledgewallet.com\n.\n\n\nTHIS IS A WORK IN PROGRESS!", 
+            "text": "Knowledge Project Guidelines\n\n\nKnowledge Project Guidelines is collection of standards, conventions and best practices to follow when developing software at knowledge.io. This is used at Knowledge projects such as \nknowledgewallet.com\n.\n\n\nIn this document you find everything relevant to project management, architecture code quality and standards.\n\n\nArchitecture\n\n\n\n\nTHIS IS A WORK IN PROGRESS!", 
             "title": "Knowledge Project Guidelines"
         }, 
         {
             "location": "/#knowledge-project-guidelines", 
-            "text": "Knowledge Project Guidelines is collection of standards, conventions and best practices to follow when developing software at knowledge.io. This is used at Knowledge projects such as  knowledgewallet.com .  THIS IS A WORK IN PROGRESS!", 
+            "text": "Knowledge Project Guidelines is collection of standards, conventions and best practices to follow when developing software at knowledge.io. This is used at Knowledge projects such as  knowledgewallet.com .  In this document you find everything relevant to project management, architecture code quality and standards.", 
             "title": "Knowledge Project Guidelines"
         }, 
         {
+            "location": "/#architecture", 
+            "text": "THIS IS A WORK IN PROGRESS!", 
+            "title": "Architecture"
+        }, 
+        {
             "location": "/about/", 
-            "text": "About Knowledge\n\n\nKnowledge.io is about rewarding and celebrating knowledge. Everyone possesses knowledge, and is shaped through their individual life experiences, but opportunities to share, showcase, and receive the benefit of one\u2019s own knowledge can be scarce for most people. Knowledge.io introduces a platform to applaud and reward users for sharing their knowledge. Knowledge.io proposes a platform that will enable its participants to attain an immediate reward and validation through gamified learning, verification of expertise, and cutting-edge ad tech based technology.", 
+            "text": "About Knowledge\n\n\nKnowledge.io is about rewarding and celebrating knowledge. Everyone possesses knowledge, and is shaped through their individual life experiences, but opportunities to share, showcase, and receive the benefit of one\u2019s own knowledge can be scarce for most people. Knowledge.io introduces a platform to applaud and reward users for sharing their knowledge. Knowledge.io proposes a platform that will enable its participants to attain an immediate reward and validation through gamified learning, verification of expertise, and cutting-edge ad tech based technology.\n\n\nknowledge.io", 
             "title": "About Knowledge"
         }, 
         {
             "location": "/about/#about-knowledge", 
-            "text": "Knowledge.io is about rewarding and celebrating knowledge. Everyone possesses knowledge, and is shaped through their individual life experiences, but opportunities to share, showcase, and receive the benefit of one\u2019s own knowledge can be scarce for most people. Knowledge.io introduces a platform to applaud and reward users for sharing their knowledge. Knowledge.io proposes a platform that will enable its participants to attain an immediate reward and validation through gamified learning, verification of expertise, and cutting-edge ad tech based technology.", 
+            "text": "Knowledge.io is about rewarding and celebrating knowledge. Everyone possesses knowledge, and is shaped through their individual life experiences, but opportunities to share, showcase, and receive the benefit of one\u2019s own knowledge can be scarce for most people. Knowledge.io introduces a platform to applaud and reward users for sharing their knowledge. Knowledge.io proposes a platform that will enable its participants to attain an immediate reward and validation through gamified learning, verification of expertise, and cutting-edge ad tech based technology.  knowledge.io", 
             "title": "About Knowledge"
         }, 
         {
