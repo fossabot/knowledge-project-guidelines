@@ -2,13 +2,13 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Project Guidelines and Best Practices\n\n\nThis is a set guidelines used at Knowledge projects such as \nknowledgewallet.com\n and \nknowledgeapi.com\n\n\nTHIS IS A WORK IN PROGRESS!", 
-            "title": "Project Guidelines and Best Practices"
+            "text": "Knowledge Project Guidelines\n\n\nKnowledge Project Guidelines is collection of standards, conventions and best practices to follow when developing software at knowledge.io. This is used at Knowledge projects such as \nknowledgewallet.com\n.\n\n\nTHIS IS A WORK IN PROGRESS!", 
+            "title": "Knowledge Project Guidelines"
         }, 
         {
-            "location": "/#project-guidelines-and-best-practices", 
-            "text": "This is a set guidelines used at Knowledge projects such as  knowledgewallet.com  and  knowledgeapi.com  THIS IS A WORK IN PROGRESS!", 
-            "title": "Project Guidelines and Best Practices"
+            "location": "/#knowledge-project-guidelines", 
+            "text": "Knowledge Project Guidelines is collection of standards, conventions and best practices to follow when developing software at knowledge.io. This is used at Knowledge projects such as  knowledgewallet.com .  THIS IS A WORK IN PROGRESS!", 
+            "title": "Knowledge Project Guidelines"
         }, 
         {
             "location": "/about/", 
