@@ -28,7 +28,7 @@ Introduction to Github Flow [guides.github.com/introduction/flow](https://guides
 git commit -m 'add login feature
 #3'
 ```
-* Don't pollute the log! http://bit.ly/1MDciJG
+* Don't pollute the log! [http://bit.ly/1MDciJG](http://bit.ly/1MDciJG)
   * Don't push to master any 'merge messages'
   * Update your local development branch with `git pull --rebase origin master`
   * Always Rebase over merge.
@@ -39,23 +39,23 @@ git commit -m 'add login feature
   You can leverage these tools to contribute to this repository.
 
 
-  ## Version Numbers
+## Version Numbers
 
   [Semver](http://semver.org), except the version roles have the semantic names, "Breaking.Feature.Fix" instead of "Major.Minor.Patch".
 
 
-  #### Breaking.Feature.Fix
+##### Breaking.Feature.Fix  
 
   We don't decide what the version will be. The API changes decide. Version numbers are for computers, not people. Release names are for people.
 
-  ##### Breaking
+##### Breaking  
 
   Any breaking change, no matter how small increments the Breaking version number. Incrementing the Breaking version number has absolutely no relationship with issuing a release.
 
-  ##### Feature
+##### Feature
 
   When any new feature is added. This could be as small as a new public property, or as large as a new module contract being exposed.
 
-  ##### Fix
+##### Fix
 
   When a documented feature does not behave as documented, or when a security issue is discovered and fixed without altering documented behavior.
