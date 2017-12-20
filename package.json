@@ -9,16 +9,10 @@
   "scripts": {
     "start": "docker run --rm -it -p 8000:8000 -v `pwd`:/docs squidfunk/mkdocs-material",
     "build": "docker run --rm -it -p 8000:8000 -v `pwd`:/docs squidfunk/mkdocs-material build",
-    "deploy": "gh-pages-deploy",
+    "cname": "echo 'guidelines.knowledge.io' >> site/CNAME",
+    "predeploy": "npm run build && npm run cname",
+    "deploy": "git-directory-deploy --directory site --branch gh-pages",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "gh-pages-deploy": {
-    "staticpath": "site",
-    "cname": "guidelines.knowledge.io",
-    "prep": [
-      "build"
-    ],
-    "noprompt": false
   },
   "repository": {
     "type": "git",
@@ -28,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/knowledge/knowledge-project-guidelines/issues"
   },
-  "homepage": "https://guidelines.knowledge.io"
+  "homepage": "https://guidelines.knowledge.io",
+  "devDependencies": {
+    "git-directory-deploy": "^1.5.1"
+  }
 }

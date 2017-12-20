@@ -3,7 +3,7 @@
 
 This is the source code of the site [guidelines.knowledge.io](https://guidelines.knowledge.io).
 
-It's a set guidelines used at Knowledge projects such as [knowledgewallet.com](knowledgewallet.com) and [knowledgeapi.com](knowledgeapi.com)
+It's a set guidelines used at Knowledge projects such as [knowledgewallet.com](knowledgewallet.com).
 
 This is website is based on [mkdocs](mkdocs.org) and uses the [mkdocs-material](https://squidfunk.github.io/mkdocs-material) theme.
 
