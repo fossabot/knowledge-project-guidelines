@@ -9,8 +9,7 @@
   "scripts": {
     "start": "docker run --rm -it -p 8000:8000 -v `pwd`:/docs squidfunk/mkdocs-material",
     "build": "docker run --rm -it -p 8000:8000 -v `pwd`:/docs squidfunk/mkdocs-material build",
-    "cname": "echo 'guidelines.knowledge.io' >> site/CNAME",
-    "predeploy": "npm run build && npm run cname",
+    "predeploy": "npm run build",
     "deploy": "git-directory-deploy --directory site --branch gh-pages",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
