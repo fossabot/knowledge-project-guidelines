@@ -19,6 +19,46 @@
             "location": "/about/#about-knowledge", 
             "text": "Knowledge.io is about rewarding and celebrating knowledge. Everyone possesses knowledge, and is shaped through their individual life experiences, but opportunities to share, showcase, and receive the benefit of one\u2019s own knowledge can be scarce for most people. Knowledge.io introduces a platform to applaud and reward users for sharing their knowledge. Knowledge.io proposes a platform that will enable its participants to attain an immediate reward and validation through gamified learning, verification of expertise, and cutting-edge ad tech based technology.", 
             "title": "About Knowledge"
+        }, 
+        {
+            "location": "/code-style/", 
+            "text": "Code Style\n\n\nUse JavaScript Standard Style \nstandardjs.com\n.\n\n\nThis is a TL;DR of the standard JavaScript rules.\n\n\nhttps://standardjs.com/rules.html#javascript-standard-style", 
+            "title": "Code Style"
+        }, 
+        {
+            "location": "/code-style/#code-style", 
+            "text": "Use JavaScript Standard Style  standardjs.com .  This is a TL;DR of the standard JavaScript rules.  https://standardjs.com/rules.html#javascript-standard-style", 
+            "title": "Code Style"
+        }, 
+        {
+            "location": "/git/", 
+            "text": "Git Rules and Workflow\n\n\nWorkflow: Github flow\n\n\nIntroduction to Github Flow \nguides.github.com/introduction/flow\n\n\n\n\nPull Request General Guidelines\n\n\n\n\nPlease check to make sure that there aren't existing pull requests attempting to address the issue mentioned.\n\n\nCheck for related issues on the issue tracker.\n\n\nNon-trivial changes should be discussed on an issue first.\n\n\nLet us know you're working on the issue.\n\n\nDevelop in a topic branch, not master.\n\n\nProvide useful pull request description\n\n\nSquash your commits.\n\n\nWrite a good description of your PR.\n\n\n\n\nAlways follow these rules:\n\n\n\n\nCommit each fix as a separate change.\n\n\nProvide useful commit messages.\n\n\nUse the imperative mood in the subject line. Eg. \nfix login error\n, \nadd config file\n, \nremove unused code\n\n\nProvide a short commit message in the first line (50-72 character). Looking at the output of \ngitk\n or \ngit log --oneline\n might help you understand why.\n\n\nReference the git issue on the body of your commit message, never on the first line. Eg:\n\n\n\n\ngit commit -m \nadd login feature\n#3\n\n\n\n\n\n\n\n\nDon't pollute the log! http://bit.ly/1MDciJG\n\n\nDon't push to master any 'merge messages'\n\n\nUpdate your local development branch with \ngit pull --rebase origin master\n\n\nAlways Rebase over merge.\n\n\n\n\nGit tools\n\n\nThere are also tools like \nHub\n and \ngit-extras\n that facilitate interacting with Github.\n  You can leverage these tools to contribute to this repository.\n\n\n## Version Numbers\n\n\nSemver\n, except the version roles have the semantic names, \"Breaking.Feature.Fix\" instead of \"Major.Minor.Patch\".\n\n\n#### Breaking.Feature.Fix\n\n\nWe don't decide what the version will be. The API changes decide. Version numbers are for computers, not people. Release names are for people.\n\n\n##### Breaking\n\n\nAny breaking change, no matter how small increments the Breaking version number. Incrementing the Breaking version number has absolutely no relationship with issuing a release.\n\n\n##### Feature\n\n\nWhen any new feature is added. This could be as small as a new public property, or as large as a new module contract being exposed.\n\n\n##### Fix\n\n\nWhen a documented feature does not behave as documented, or when a security issue is discovered and fixed without altering documented behavior.", 
+            "title": "Git Rules and Workflow"
+        }, 
+        {
+            "location": "/git/#git-rules-and-workflow", 
+            "text": "", 
+            "title": "Git Rules and Workflow"
+        }, 
+        {
+            "location": "/git/#workflow-github-flow", 
+            "text": "Introduction to Github Flow  guides.github.com/introduction/flow", 
+            "title": "Workflow: Github flow"
+        }, 
+        {
+            "location": "/git/#pull-request-general-guidelines", 
+            "text": "Please check to make sure that there aren't existing pull requests attempting to address the issue mentioned.  Check for related issues on the issue tracker.  Non-trivial changes should be discussed on an issue first.  Let us know you're working on the issue.  Develop in a topic branch, not master.  Provide useful pull request description  Squash your commits.  Write a good description of your PR.", 
+            "title": "Pull Request General Guidelines"
+        }, 
+        {
+            "location": "/git/#always-follow-these-rules", 
+            "text": "Commit each fix as a separate change.  Provide useful commit messages.  Use the imperative mood in the subject line. Eg.  fix login error ,  add config file ,  remove unused code  Provide a short commit message in the first line (50-72 character). Looking at the output of  gitk  or  git log --oneline  might help you understand why.  Reference the git issue on the body of your commit message, never on the first line. Eg:   git commit -m  add login feature\n#3    Don't pollute the log! http://bit.ly/1MDciJG  Don't push to master any 'merge messages'  Update your local development branch with  git pull --rebase origin master  Always Rebase over merge.", 
+            "title": "Always follow these rules:"
+        }, 
+        {
+            "location": "/git/#git-tools", 
+            "text": "There are also tools like  Hub  and  git-extras  that facilitate interacting with Github.\n  You can leverage these tools to contribute to this repository.  ## Version Numbers  Semver , except the version roles have the semantic names, \"Breaking.Feature.Fix\" instead of \"Major.Minor.Patch\".  #### Breaking.Feature.Fix  We don't decide what the version will be. The API changes decide. Version numbers are for computers, not people. Release names are for people.  ##### Breaking  Any breaking change, no matter how small increments the Breaking version number. Incrementing the Breaking version number has absolutely no relationship with issuing a release.  ##### Feature  When any new feature is added. This could be as small as a new public property, or as large as a new module contract being exposed.  ##### Fix  When a documented feature does not behave as documented, or when a security issue is discovered and fixed without altering documented behavior.", 
+            "title": "Git tools"
         }
     ]
 }

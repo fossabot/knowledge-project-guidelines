@@ -13,6 +13,8 @@
         <meta name="description" content="Knowledge Project Guidelines and Best Practices">
       
       
+        <link rel="canonical" href="http://knowledge-internal-documentation-site.s3-website-us-east-1.amazonaws.com/git/">
+      
       
         <meta name="author" content="knowledge.io">
       
@@ -31,22 +33,22 @@
       
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
-      <link rel="shortcut icon" href="/assets/images/favicon.png">
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-0.17.2, mkdocs-material-2.2.1">
     
     
       
-        <title>Knowledge Project Guidelines</title>
+        <title>Git Rules and Workflow - Knowledge Project Guidelines</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/application.41c6761c.css">
+      <link rel="stylesheet" href="../assets/stylesheets/application.41c6761c.css">
       
-        <link rel="stylesheet" href="/assets/stylesheets/application-palette.792431c1.css">
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.792431c1.css">
       
     
     
-      <script src="/assets/javascripts/modernizr.1aa3b519.js"></script>
+      <script src="../assets/javascripts/modernizr.1aa3b519.js"></script>
     
     
       
@@ -98,7 +100,7 @@
                 Knowledge Project Guidelines
               </span>
               <span class="md-header-nav__topic">
-                
+                Git Rules and Workflow
               </span>
             
           
@@ -213,8 +215,8 @@
 
 
   <li class="md-nav__item">
-    <a href="/" title="Home" class="md-nav__link">
-      Home
+    <a href=".." title="Knowledge Project Guidelines" class="md-nav__link">
+      Knowledge Project Guidelines
     </a>
   </li>
 
@@ -225,8 +227,8 @@
 
 
   <li class="md-nav__item">
-    <a href="/about/" title="About" class="md-nav__link">
-      About
+    <a href="../about/" title="About Knowledge" class="md-nav__link">
+      About Knowledge
     </a>
   </li>
 
@@ -237,8 +239,8 @@
 
 
   <li class="md-nav__item">
-    <a href="/code-style/" title="Code style" class="md-nav__link">
-      Code style
+    <a href="../code-style/" title="Code Style" class="md-nav__link">
+      Code Style
     </a>
   </li>
 
@@ -247,11 +249,74 @@
       
       
 
+  
 
-  <li class="md-nav__item">
-    <a href="/git/" title="Git" class="md-nav__link">
-      Git
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Git Rules and Workflow
+      </label>
+    
+    <a href="./" title="Git Rules and Workflow" class="md-nav__link md-nav__link--active">
+      Git Rules and Workflow
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#workflow-github-flow" title="Workflow: Github flow" class="md-nav__link">
+    Workflow: Github flow
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pull-request-general-guidelines" title="Pull Request General Guidelines" class="md-nav__link">
+    Pull Request General Guidelines
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#always-follow-these-rules" title="Always follow these rules:" class="md-nav__link">
+    Always follow these rules:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#git-tools" title="Git tools" class="md-nav__link">
+    Git tools
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
     
@@ -262,12 +327,121 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#workflow-github-flow" title="Workflow: Github flow" class="md-nav__link">
+    Workflow: Github flow
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pull-request-general-guidelines" title="Pull Request General Guidelines" class="md-nav__link">
+    Pull Request General Guidelines
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#always-follow-these-rules" title="Always follow these rules:" class="md-nav__link">
+    Always follow these rules:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#git-tools" title="Git tools" class="md-nav__link">
+    Git tools
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
               
-  <h1>404 - Not found</h1>
+                
+                  <a href="https://github.com/knowledge/knowledge-project-guidelines/edit/master/docs/git.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="git-rules-and-workflow">Git Rules and Workflow<a class="headerlink" href="#git-rules-and-workflow" title="Permanent link">&para;</a></h1>
+<h2 id="workflow-github-flow">Workflow: Github flow<a class="headerlink" href="#workflow-github-flow" title="Permanent link">&para;</a></h2>
+<p>Introduction to Github Flow <a href="https://guides.github.com/introduction/flow/">guides.github.com/introduction/flow</a></p>
+<p><img alt="" src="../img/ghflow.png" /></p>
+<h2 id="pull-request-general-guidelines">Pull Request General Guidelines<a class="headerlink" href="#pull-request-general-guidelines" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Please check to make sure that there aren't existing pull requests attempting to address the issue mentioned.</li>
+<li>Check for related issues on the issue tracker.</li>
+<li>Non-trivial changes should be discussed on an issue first.</li>
+<li>Let us know you're working on the issue.</li>
+<li>Develop in a topic branch, not master.</li>
+<li>Provide useful pull request description</li>
+<li>Squash your commits.</li>
+<li>Write a good description of your PR.</li>
+</ul>
+<h3 id="always-follow-these-rules">Always follow these rules:<a class="headerlink" href="#always-follow-these-rules" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Commit each fix as a separate change.</li>
+<li>Provide useful commit messages.</li>
+<li>Use the imperative mood in the subject line. Eg. <code>fix login error</code>, <code>add config file</code>, <code>remove unused code</code></li>
+<li>Provide a short commit message in the first line (50-72 character). Looking at the output of <code>gitk</code> or <code>git log --oneline</code> might help you understand why.</li>
+<li>Reference the git issue on the body of your commit message, never on the first line. Eg:</li>
+</ul>
+<div class="codehilite"><pre><span></span>git commit -m &#39;add login feature
+#3&#39;
+</pre></div>
 
+
+<ul>
+<li>Don't pollute the log! http://bit.ly/1MDciJG</li>
+<li>Don't push to master any 'merge messages'</li>
+<li>Update your local development branch with <code>git pull --rebase origin master</code></li>
+<li>Always Rebase over merge.</li>
+</ul>
+<h2 id="git-tools">Git tools<a class="headerlink" href="#git-tools" title="Permanent link">&para;</a></h2>
+<p>There are also tools like <a href="https://hub.github.com/">Hub</a> and <a href="https://github.com/tj/git-extras">git-extras</a> that facilitate interacting with Github.
+  You can leverage these tools to contribute to this repository.</p>
+<p>## Version Numbers</p>
+<p><a href="http://semver.org">Semver</a>, except the version roles have the semantic names, "Breaking.Feature.Fix" instead of "Major.Minor.Patch".</p>
+<p>#### Breaking.Feature.Fix</p>
+<p>We don't decide what the version will be. The API changes decide. Version numbers are for computers, not people. Release names are for people.</p>
+<p>##### Breaking</p>
+<p>Any breaking change, no matter how small increments the Breaking version number. Incrementing the Breaking version number has absolutely no relationship with issuing a release.</p>
+<p>##### Feature</p>
+<p>When any new feature is added. This could be as small as a new public property, or as large as a new module contract being exposed.</p>
+<p>##### Fix</p>
+<p>When a documented feature does not behave as documented, or when a security issue is discovered and fixed without altering documented behavior.</p>
+                
+                  
+                
+              
               
                 
               
@@ -278,6 +452,27 @@
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../code-style/" title="Code Style" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Code Style
+              </span>
+            </div>
+          </a>
+        
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -314,9 +509,9 @@
       
     </div>
     
-      <script src="/assets/javascripts/application.6cdc17f0.js"></script>
+      <script src="../assets/javascripts/application.6cdc17f0.js"></script>
       
-      <script>app.initialize({version:"0.17.2",url:{base:""}})</script>
+      <script>app.initialize({version:"0.17.2",url:{base:".."}})</script>
       
     
     

@@ -17,4 +17,20 @@
     </url>
     
 
+    
+    <url>
+     <loc>http://knowledge-internal-documentation-site.s3-website-us-east-1.amazonaws.com//code-style/</loc>
+     <lastmod>2017-12-20</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>http://knowledge-internal-documentation-site.s3-website-us-east-1.amazonaws.com//git/</loc>
+     <lastmod>2017-12-20</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
 </urlset>
