@@ -2,17 +2,82 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Knowledge Project Guidelines\n\n\nKnowledge Project Guidelines is collection of standards, conventions and best practices to follow when developing software at knowledge.io. This is used at Knowledge projects such as \nknowledgewallet.com\n.\n\n\nIn this document you find everything relevant to project management, architecture code quality and standards.\n\n\nArchitecture\n\n\n\n\nTHIS IS A WORK IN PROGRESS!", 
+            "text": "Knowledge Project Guidelines\n\n\nKnowledge Project Guidelines is collection of standards, conventions and best practices to follow when developing software at knowledge.io. This is used at Knowledge projects such as \nknowledgewallet.com\n.\n\n\nThrough this website you will be able to learn what's engineering dna at knowledge.io and find documentation relevant to project management, architecture, code quality and standards.\n\n\nOur Engineering Culture\n\n\nWe are fast paced startup with really talented engineers who love open source and agile principles, and that's reflected on our way to build software. At knowlege.io we value:\n\n\ntransparency, communication and openness\n\n\nWe believe in honesty, transparency and openness as pillars to create a solid and healthy environment were one can develop to its full potential.  \n\n\nvalue delivery focus\n\n\nWe focus on delivering value above all, it\u2019s at the base of all our decisions. We make sure everything we do delivers value both to our users and clients.\n\n\nfreedom to explore ideas\n\n\nWe are constantly improving and evolving, we are always looking for better and more effective ways, we value exploration, experimentation and open-mindedness.\n\n\nlightweight agility\n\n\nWe work with agile/lean methods and kanban to deliver the highest amount of business value to the customer as fast as possible, keeping what works best and discarding rigid rules that are more trouble than they\u2019re worth. We value agile principles over practices.\n\n\nautomation of repetitive tasks\n\n\nAutomation is at the top of our priorities, everything from scaffolding to code optimization, testing, deploy and delivery.\n\n\nopen source projects\n\n\nWe promote participation in open source projects we use as well as open sourcing our projects and tooling.\n\n\nparticipation in the local development communities\n\n\nWe believe that engaging and participating in the development communities allows us and to learn and grow more, at the same time our participation enriches the community in general by sharing our knowledge with others.\n\n\ndiversity, collaboration and mutual respect\n\n\nA group of different and diverse minds produce more creative solutions as every individual brings in their talents, their way of thinking, operating and solving problems.\n\n\npeer code-reviews\n\n\nPeer code reviews core to our development process, we believe it is one of the best ways to improve quality and spread knowledge.\n\n\ncontinuous integration\n\n\nContinuous integration allows us to detect problems early reducing costs and help us deliver robust software more rapidly.\n\n\nretrospectives\n\n\nWhenever something goes wrong we don\u2019t point fingers or blame, rather we prefer to make a retrospective meeting and learn from what went wrong.\n\n\nfreedom to work from anywhere you want\n\n\nWe are fully distributed team, in the 21st there\u2019s no real need to be stuck in traffic jams and loose time of your life moving from one place to another to work on software development. We meet in person from time to time when required to analyze and coordinate work.\n\n\nArchitecture\n\n\nAt knowledge.io we have most of our infrastructure on AWS and we favor serverless architectures.\n\n\n\n\nTHIS IS A WORK IN PROGRESS!", 
             "title": "Knowledge Project Guidelines"
         }, 
         {
             "location": "/#knowledge-project-guidelines", 
-            "text": "Knowledge Project Guidelines is collection of standards, conventions and best practices to follow when developing software at knowledge.io. This is used at Knowledge projects such as  knowledgewallet.com .  In this document you find everything relevant to project management, architecture code quality and standards.", 
+            "text": "Knowledge Project Guidelines is collection of standards, conventions and best practices to follow when developing software at knowledge.io. This is used at Knowledge projects such as  knowledgewallet.com .  Through this website you will be able to learn what's engineering dna at knowledge.io and find documentation relevant to project management, architecture, code quality and standards.", 
             "title": "Knowledge Project Guidelines"
         }, 
         {
+            "location": "/#our-engineering-culture", 
+            "text": "We are fast paced startup with really talented engineers who love open source and agile principles, and that's reflected on our way to build software. At knowlege.io we value:", 
+            "title": "Our Engineering Culture"
+        }, 
+        {
+            "location": "/#transparency-communication-and-openness", 
+            "text": "We believe in honesty, transparency and openness as pillars to create a solid and healthy environment were one can develop to its full potential.", 
+            "title": "transparency, communication and openness"
+        }, 
+        {
+            "location": "/#value-delivery-focus", 
+            "text": "We focus on delivering value above all, it\u2019s at the base of all our decisions. We make sure everything we do delivers value both to our users and clients.", 
+            "title": "value delivery focus"
+        }, 
+        {
+            "location": "/#freedom-to-explore-ideas", 
+            "text": "We are constantly improving and evolving, we are always looking for better and more effective ways, we value exploration, experimentation and open-mindedness.", 
+            "title": "freedom to explore ideas"
+        }, 
+        {
+            "location": "/#lightweight-agility", 
+            "text": "We work with agile/lean methods and kanban to deliver the highest amount of business value to the customer as fast as possible, keeping what works best and discarding rigid rules that are more trouble than they\u2019re worth. We value agile principles over practices.", 
+            "title": "lightweight agility"
+        }, 
+        {
+            "location": "/#automation-of-repetitive-tasks", 
+            "text": "Automation is at the top of our priorities, everything from scaffolding to code optimization, testing, deploy and delivery.", 
+            "title": "automation of repetitive tasks"
+        }, 
+        {
+            "location": "/#open-source-projects", 
+            "text": "We promote participation in open source projects we use as well as open sourcing our projects and tooling.", 
+            "title": "open source projects"
+        }, 
+        {
+            "location": "/#participation-in-the-local-development-communities", 
+            "text": "We believe that engaging and participating in the development communities allows us and to learn and grow more, at the same time our participation enriches the community in general by sharing our knowledge with others.", 
+            "title": "participation in the local development communities"
+        }, 
+        {
+            "location": "/#diversity-collaboration-and-mutual-respect", 
+            "text": "A group of different and diverse minds produce more creative solutions as every individual brings in their talents, their way of thinking, operating and solving problems.", 
+            "title": "diversity, collaboration and mutual respect"
+        }, 
+        {
+            "location": "/#peer-code-reviews", 
+            "text": "Peer code reviews core to our development process, we believe it is one of the best ways to improve quality and spread knowledge.", 
+            "title": "peer code-reviews"
+        }, 
+        {
+            "location": "/#continuous-integration", 
+            "text": "Continuous integration allows us to detect problems early reducing costs and help us deliver robust software more rapidly.", 
+            "title": "continuous integration"
+        }, 
+        {
+            "location": "/#retrospectives", 
+            "text": "Whenever something goes wrong we don\u2019t point fingers or blame, rather we prefer to make a retrospective meeting and learn from what went wrong.", 
+            "title": "retrospectives"
+        }, 
+        {
+            "location": "/#freedom-to-work-from-anywhere-you-want", 
+            "text": "We are fully distributed team, in the 21st there\u2019s no real need to be stuck in traffic jams and loose time of your life moving from one place to another to work on software development. We meet in person from time to time when required to analyze and coordinate work.", 
+            "title": "freedom to work from anywhere you want"
+        }, 
+        {
             "location": "/#architecture", 
-            "text": "THIS IS A WORK IN PROGRESS!", 
+            "text": "At knowledge.io we have most of our infrastructure on AWS and we favor serverless architectures.   THIS IS A WORK IN PROGRESS!", 
             "title": "Architecture"
         }, 
         {
@@ -27,13 +92,33 @@
         }, 
         {
             "location": "/code-style/", 
-            "text": "Code Style\n\n\nUse JavaScript Standard Style \nstandardjs.com\n.\n\n\nThis is a TL;DR of the standard JavaScript rules.\n\n\nhttps://standardjs.com/rules.html#javascript-standard-style", 
+            "text": "Code Style\n\n\nCoding style is how your code looks. Consistent code style across components and project is key to write to quality code, the code should looks alike and follow the same standards and conventions no matter who wrote it; By doing this you can switch between projects and different parts of an software program and it will always look familiar, you will be able to work without unnecessary cognitive load of understanding different coding styles.\n\n\nAt Knowledge our main programming languages are JavaScript and Solidity.\nAlways follow the following guidelines:\n\n\nGeneral\n\n\n\n\nPrefer Functional Programming ( pure functions )\n\n\nPrefer Serverless Architectures ( AWS Lambda )\n\n\nUse the official Knowledge Boilerplates to kickstart a project\n\n\nAutomate all development tasks\n\n\n\n\nJavaScript\n\n\n\n\nUse Standard Style, This is a \nTL;DR of the Standard JavaScript rules\n.\n\n\n\n\nSolidity\n\n\n\n\nUse Truffle Framework\n\n\nUse Open Zeppelin Security Library\n\n\nLint your code with Solium\n\n\n\n\nUser Interfaces\n\n\n\n\nPrefer ReactJS and JSX for UI components\n\n\nFavor styled components over cascade stylesheets", 
             "title": "Code Style"
         }, 
         {
             "location": "/code-style/#code-style", 
-            "text": "Use JavaScript Standard Style  standardjs.com .  This is a TL;DR of the standard JavaScript rules.  https://standardjs.com/rules.html#javascript-standard-style", 
+            "text": "Coding style is how your code looks. Consistent code style across components and project is key to write to quality code, the code should looks alike and follow the same standards and conventions no matter who wrote it; By doing this you can switch between projects and different parts of an software program and it will always look familiar, you will be able to work without unnecessary cognitive load of understanding different coding styles.  At Knowledge our main programming languages are JavaScript and Solidity.\nAlways follow the following guidelines:", 
             "title": "Code Style"
+        }, 
+        {
+            "location": "/code-style/#general", 
+            "text": "Prefer Functional Programming ( pure functions )  Prefer Serverless Architectures ( AWS Lambda )  Use the official Knowledge Boilerplates to kickstart a project  Automate all development tasks", 
+            "title": "General"
+        }, 
+        {
+            "location": "/code-style/#javascript", 
+            "text": "Use Standard Style, This is a  TL;DR of the Standard JavaScript rules .", 
+            "title": "JavaScript"
+        }, 
+        {
+            "location": "/code-style/#solidity", 
+            "text": "Use Truffle Framework  Use Open Zeppelin Security Library  Lint your code with Solium", 
+            "title": "Solidity"
+        }, 
+        {
+            "location": "/code-style/#user-interfaces", 
+            "text": "Prefer ReactJS and JSX for UI components  Favor styled components over cascade stylesheets", 
+            "title": "User Interfaces"
         }, 
         {
             "location": "/git/", 
