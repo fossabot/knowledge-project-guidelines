@@ -11,8 +11,18 @@ install:
 script:
   - npm run lint
 after_success:
-  - $(npm bin)/set-up-ssh --key "$encrypted_XXXXXXXXXXXX_key" --iv "$encrypted_XXXXXXXXXXXX_iv" --path-encrypted-key ".travis/github_deploy_key.enc"
-  - npm run deploy
+  - |
+
+        $(npm bin)/set-up-ssh --key "$encrypted_XXXXXXXXXXXX_key" \
+                             --iv "$encrypted_XXXXXXXXXXXX_iv" \
+                             --path-encrypted-key ".travis/github_deploy_key.enc"
+
+        $(npm bin)/update-branch --commands "npm run build" \
+                                 --commit-message "publish: $TRAVIS_COMMIT_MESSAGE [skip ci]" \
+                                 --directory "site" \
+                                 --distribution-branch "gh-pages" \
+                                 --source-branch "master"
+
 env:
   global:
       secure: "oUjMBsEvCvwtUkNugRJ8CO6gHpd0+NUMf4DJAeTJBL839M6UuerL8RGR7idFW8gZUbFrvP2o0rWlALc7uxwn+mkfFORIQfQXR4i129td0GpuF7wv3VBrSCsprYK6cqPkkpmgZxweX/l8XyxykIEFtkBPUijmHx3pMeXWngFs5tr24RphUE6Yy1xCOVc7N1XhfxMxtvTFO6AMYstUwcWFLmWNtTQQtJA1bJuXO15MvFUu9CE3FLi1aIBuWodDsapQi6vSCMoCvD7C9RMwSzwm1+XNcbo9CWEbtn8ckrItaehWE/uyx7r4KAxNoyiAXyW5hiA/Nha2WXm+RXaACN35UqJoBW4jUYNcOO8pWsBKLlqoVfWvF4cnCtpAzEJuKTZ3NGtkQLV8N0TnaD+0nU1HqdFCN7aQw0659IY6t9e2H7Am3xMwGy0laklly6PVwo36jzGxb4JY/aUUec5eBdf0Ss9OeX24pKeHRy80GYTNbNKkjQO2YrblyUSQbaShBNw3BrYYLOupNlNd5C2dGmc4pHQNFij/gH6PthYg4NLwjjZjQ/S56bDzBUL+/VENCrXPp05eTPR1ZLapwCIhhPy1dXoVGVZp+MWrUDHRmBG2n1cC6GYTX4O+taLgvFQX4dUnCjiJ+mBT41hATijsQeu+kmfCbycFDXhPFMhVvwa7f5A="
