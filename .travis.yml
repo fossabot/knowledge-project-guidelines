@@ -1,13 +1,21 @@
 language: node_js
 node_js:
-  - "8.9.3"
+  - 8.9.3
 install:
   - npm install
 script:
   - npm run lint
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
-  on:
-    branch: gh-pages
+before_install:
+  - openssl aes-256-cbc -K $encrypted_f76034d956d1_key -iv $encrypted_f76034d956d1_iv -in github_deploy_key.enc -out github_deploy_key -d
+after_success:
+  -|
+
+     $(npm bin)/set-up-ssh --key "$encrypted_XXXXXXXXXXXX_key" \
+                           --iv "$encrypted_XXXXXXXXXXXX_iv" \
+                           --path-encrypted-key ".travis/github_deploy_key.enc"
+
+     npm run deploy
+
+env:
+  global:
+      secure: "2Jk+ZYHILyPMp9FMfP2v5nmxsDlrVFeiz0/bQxI1Fn0DR1e+SZf+rHiN0v6Dg+NVqjBJ1To+O+KZQdSnVcm+oCJMy2369PSZ7KscGzuuMJaeFKqUez6gOXaFkDmgcG0wbSFVDU+IXdHZpL8ShhpMnJuc9qvZSXPIk4SUcZyPBBP35Zi7PCP6OiVu8xu0OER3ruKcbjmyJ20Ee6XTUjq9Ls9BBQNnDSE6So3/9nZACU7MGuce01g73/GD69BC0s0cv9UK6yIwvm/D8nKivQFwmAnEA0oHHCuloHJ7YZ7Ip9h1VyrxEaZKPKi2Suf46LTAKYHfVKlBkrZ3Wb3PhsGgUqOUcaO77fkby+gxAwqihfJ0XPw6EvGSt2ax2KSHRz86UJduzCN+c8gf6lT8qWrO2b/sVwwhRazEr8zySWRWTpOUzD3sQZ4+HPY22L9Zodt31bUKAAC7hFbJEIE/0oFBUa3PFUFQwhnyC+P47PBhqPnkafKuwXBMD94hRQUoqaIx0v+YpdmPy7txGLekRdqs44XfcklJvylImHMoWkGV8tPNmbzLE5T/nwKkBBmxTuFdN8/XO7uB04J+88rQ2nntf9HZ7A2CXQye4+Wct66wIvigV5xjlKAcnPp6CKaymgcxAd5wOjUmVXmP1/oxrttNNW5CmqsCtjnKWxnxReOzRFQ="

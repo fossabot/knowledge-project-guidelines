@@ -23,6 +23,7 @@
   },
   "homepage": "https://guidelines.knowledge.io",
   "devDependencies": {
+    "@alrra/travis-scripts": "^3.0.1",
     "git-directory-deploy": "^1.5.1",
     "standard": "^10.0.3"
   }
