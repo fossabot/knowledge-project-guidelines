@@ -2,6 +2,7 @@
 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 [![](https://img.shields.io/badge/%E2%9C%93-collaborative_etiquette-brightgreen.svg)](https://git.io/col)
+[![Travis](https://img.shields.io/travis/knowledge/knowledge-project-guidelines.svg)]()
 
 This is the source code of the site [knowledge.github.io/knowledge-project-guidelines](https://knowledge.github.io/knowledge-project-guidelines).
 
