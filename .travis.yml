@@ -15,7 +15,7 @@ after_success:
 
         $(npm bin)/set-up-ssh --key "$encrypted_XXXXXXXXXXXX_key" \
                              --iv "$encrypted_XXXXXXXXXXXX_iv" \
-                             --path-encrypted-key ".travis/github_deploy_key.enc"
+                             --path-encrypted-key "github_deploy_key.enc"
 
         $(npm bin)/update-branch --commands "npm run build" \
                                  --commit-message "publish: $TRAVIS_COMMIT_MESSAGE [skip ci]" \
