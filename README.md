@@ -1,18 +1,39 @@
 # Knowledge Project Guidelines and Best Practices
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
-[![](https://img.shields.io/badge/%E2%9C%93-collaborative_etiquette-brightgreen.svg)](https://git.io/col)
-[![Travis](https://img.shields.io/travis/knowledge/knowledge-project-guidelines.svg)]()
+[![StandardJS Style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![Collaborative Etiquete](https://img.shields.io/badge/%E2%9C%93-collaborative_etiquette-brightgreen.svg)](https://git.io/col)
+[![Travis CI](https://img.shields.io/travis/knowledge/knowledge-project-guidelines.svg)](https://travis-ci.org/knowledge/knowledge-project-guidelines)
 
 This is the source code of the site [knowledge.github.io/knowledge-project-guidelines](https://knowledge.github.io/knowledge-project-guidelines).
 
 It's a set guidelines used at Knowledge projects such as [knowledgewallet.com](https://knowledgewallet.com).
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Contents
+
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)
+- [License](#license)
+- [About Knowledge](#about-knowledge)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Features
+
+- Markdown based pages
+- Responsive Material UI Theme
+- Powerful Search Box
+- Docker based build script
+- Automated Testing with Travis CI
+- Automated Deployment with Travis CI
+
+## Getting Started
+
 This is website is based on [mkdocs](mkdocs.org) and uses the [mkdocs-material](https://squidfunk.github.io/mkdocs-material) theme.
 
 The recommended local installation is using docker to get all dependencies out of the box in an isolated environment.
-
-## Setup
 
 The official Docker image for Material comes with all dependencies pre-installed and ready-to-use with the latest version published on PyPI, packaged in a very small image. Pull it with:
 
