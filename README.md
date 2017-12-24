@@ -5,7 +5,7 @@
 
 This is the source code of the site [knowledge.github.io/knowledge-project-guidelines](https://knowledge.github.io/knowledge-project-guidelines).
 
-It's a set guidelines used at Knowledge projects such as [knowledgewallet.com](knowledgewallet.com).
+It's a set guidelines used at Knowledge projects such as [knowledgewallet.com](https://knowledgewallet.com).
 
 This is website is based on [mkdocs](mkdocs.org) and uses the [mkdocs-material](https://squidfunk.github.io/mkdocs-material) theme.
 
