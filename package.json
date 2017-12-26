@@ -18,7 +18,8 @@
     "type": "git",
     "url": "git+https://github.com/knowledge/knowledge-project-guidelines.git"
   },
-  "author": "Gabo Esquivel <contact@gaboesquivel.com> (https://gaboesquivel.com)",
+  "author": "Knowledge - knowledge.io",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/knowledge/knowledge-project-guidelines/issues"
   },
