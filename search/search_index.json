@@ -177,12 +177,12 @@
         }, 
         {
             "location": "/smart-contracts/", 
-            "text": "Smart Contracts\n\n\nWhen writing smart contracts make sure you the community best practices and avoid known vulnerabilities.\nUtilize the following resources as reference and guideline\n\n\n\n\nConsensys Smart Contract Best Pratices\n\n\nOpenZeppelin Library\n   \n\n\nTruffle Framework\n  \n\n\nThe Hitchhiker\u2019s Guide to Smart Contracts in Ethereum", 
+            "text": "Smart Contracts\n\n\nWhen writing smart contracts make sure you the community best practices and avoid known vulnerabilities.\nUtilize the following resources as reference and guideline\n\n\n\n\nConsensys Smart Contract Best Pratices\n\n\nOpenZeppelin Library\n   \n\n\nTruffle Framework\n  \n\n\nThe Hitchhiker\u2019s Guide to Smart Contracts in Ethereum\n\n\n\n\nSmart Contract should always be tested throughly\n- Lint them using \nSolium\n\n- Test them using \nMocha\n through the Truffle Framework", 
             "title": "Smart Contracts"
         }, 
         {
             "location": "/smart-contracts/#smart-contracts", 
-            "text": "When writing smart contracts make sure you the community best practices and avoid known vulnerabilities.\nUtilize the following resources as reference and guideline   Consensys Smart Contract Best Pratices  OpenZeppelin Library      Truffle Framework     The Hitchhiker\u2019s Guide to Smart Contracts in Ethereum", 
+            "text": "When writing smart contracts make sure you the community best practices and avoid known vulnerabilities.\nUtilize the following resources as reference and guideline   Consensys Smart Contract Best Pratices  OpenZeppelin Library      Truffle Framework     The Hitchhiker\u2019s Guide to Smart Contracts in Ethereum   Smart Contract should always be tested throughly\n- Lint them using  Solium \n- Test them using  Mocha  through the Truffle Framework", 
             "title": "Smart Contracts"
         }
     ]
