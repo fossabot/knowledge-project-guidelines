@@ -7,3 +7,8 @@ Utilize the following resources as reference and guideline
 - [OpenZeppelin Library](https://openzeppelin.org/)   
 - [Truffle Framework](http://truffleframework.com/)  
 - [The Hitchhiker’s Guide to Smart Contracts in Ethereum](https://blog.zeppelin.solutions/the-hitchhikers-guide-to-smart-contracts-in-ethereum-848f08001f05)
+
+
+Smart Contract should always be tested throughly
+- Lint them using [Solium](https://github.com/duaraghav8/Solium)
+- Test them using [Mocha](https://mochajs.org/) through the Truffle Framework 
